@@ -1,2 +1,2 @@
-export const GRAPHQL_SERVER = 'https://note-dtdm-be.onrender.com';
-export const GRAPHQL_SUBSCRIPTION_ENDPOINT = 'wss://note-dtdm-be.onrender.com/graphql';
+export const GRAPHQL_SERVER = 'https://note-app-l5pj.onrender.com';
+export const GRAPHQL_SUBSCRIPTION_ENDPOINT = 'wss://note-app-l5pj.onrender.com/graphql';
