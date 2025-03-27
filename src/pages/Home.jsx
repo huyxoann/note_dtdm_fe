@@ -7,9 +7,9 @@ import PushNotification from '../components/PushNotification';
 import UserMenu from '../components/UserMenu';
 
 export default function Home() {
-  const { folders } = useLoaderData();
-
-  // console.log('[HomePage]',{data});
+  const data = useLoaderData();
+  const folders = data?.folders || [];
+  console.log('[HomePage]',{data});
 
   return (
     <>
